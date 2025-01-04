@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5062/api',  // Your backend API URL
+    baseURL: 'https://battlegame-b3hrdngqhkcehbft.canadacentral-01.azurewebsites.net/api',  // Your backend API URL
 });
 
 export default axiosInstance;
